@@ -1,13 +1,12 @@
 from dotenv import load_dotenv
 load_dotenv()
 
-from dotenv import load_dotenv
-load_dotenv()
-
 import streamlit as st
 from dotenv import load_dotenv
 from langchain.schema import SystemMessage, HumanMessage
 from langchain.chat_models import ChatOpenAI
+from langchain_openai import OpenAIEmbeddings
+
 # import some_module  # Removed as it is not used and causes an error
 
 # 環境変数の読み込み
